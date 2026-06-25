@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finah Nyamwaya — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">FN</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Finah Nyamwaya</span></h1>
+      <p>A developer in the making — building things for the web one project at a time.</p>
+      <a href="projects.html" class="btn btn-primary">See My Work</a>
+      &nbsp;
+      <a href="contact.html" class="btn btn-secondary">Say Hello</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://placehold.co/280x280/39ff14/1a1a2e?text=FN" alt="Photo of Finah Nyamwaya">
+    </div>
+  </div>
+</section>
+
+<main class="section">
+  <div class="section-title">
+    <h2>A Little About Me</h2>
+  </div>
+  <p>I'm currently learning web development as part of the IYF Season 11 program. I love coding and watching movies — honestly both involve a lot of problem solving if you think about it. When I'm not debugging HTML, I'm probably watching something on Netflix.</p>
+
+  <h2 style="margin-top:2.5rem; margin-bottom:1rem;">My Hobbies</h2>
+  <ul style="padding-left:1.5rem; line-height:2.2;">
+    <li>Coding — building small projects and learning something new every day</li>
+    <li>Watching movies — everything from thrillers to sci-fi</li>
+    <li>Exploring new tech tools and seeing what they can do</li>
+  </ul>
+
+  <p style="margin-top:1.5rem;">My go-to resource: <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></p>
+  <p>Reach me: <a href="mailto:finahnyamwaya062@gmail.com">finahnyamwaya062@gmail.com</a></p>
+
+  <div class="section-title" style="margin-top:4rem;">
+    <h2>Button Styles</h2>
+  </div>
+  <div style="display:flex; flex-wrap:wrap; gap:1rem; align-items:center;">
+    <a href="#" class="btn btn-primary">Primary</a>
+    <a href="#" class="btn btn-secondary">Secondary</a>
+    <a href="#" class="btn btn-danger">Danger</a>
+    <a href="#" class="btn btn-disabled" onclick="return false;">Disabled</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Finah Nyamwaya</h4>
+      <p>A developer learning to build things that matter.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address style="font-style:normal; font-size:0.875rem; line-height:2; color:#aaa;">
+        📧 <a href="mailto:finahnyamwaya062@gmail.com">finahnyamwaya062@gmail.com</a><br>
+        💼 <a href="https://github.com/Finah2" target="_blank">github.com/Finah2</a><br>
+        📍 Nairobi, Kenya
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Finah Nyamwaya. Built with HTML & CSS.</p>
+  </div>
+</footer>
+
+</body>
+</html>
